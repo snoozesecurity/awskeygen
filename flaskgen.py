@@ -1,6 +1,7 @@
 # Flask app version of awskeygen.py.  Again, this is for educational purposes only and the keys are F A K E :)
 # Set environment variables with: export FLASK_APP=flaskgen.py
 # Run app with: flask run
+# Note: If you have multiple python versions installed, run with: python3 -m flask run
 
 from flask import Flask, make_response
 from flask_restful import Api, Resource
